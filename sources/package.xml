@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+<package name="com.sebijk.wcf.extendedjabberinfo">
+	<packageinformation>
+		<packageName>Extended Jabber Information</packageName>
+		<packageDescription>Fügt zusätzliche Informationen ein, um den Nutzer direkt über den Jabberclient kontaktieren zu können.</packageDescription>
+		<isunique>0</isunique>
+		<version>1.0.0</version>
+		<date>2012-02-06</date>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.1.5">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.1.0">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+	
+	<authorinformation>
+		<author>Home of the Sebijk.com</author>
+		<authorURL>http://www.sebijk.com</authorURL>
+	</authorinformation>
+	
+	<instructions type="install">
+		<templatepatch>messengerJabber.diff</templatepatch>
+		<languages languagecode="de">de.UTF-8.xml</languages>
+		<languages languagecode="en">en.UTF-8.xml</languages>
+		<languages languagecode="de-informal">de-informal.UTF-8.xml</languages>
+	</instructions>
+	
+</package>

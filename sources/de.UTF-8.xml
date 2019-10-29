@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="de">
+	<category name="wcf.user.messenger">
+		<item name="wcf.user.messenger.jabber.command"><![CDATA[Verfügbare Ad-Hoc-Befehle zeigen]]></item>
+		<item name="wcf.user.messenger.jabber.disco"><![CDATA[Dienste durchsuchen]]></item>
+		<item name="wcf.user.messenger.jabber.description"><![CDATA[Diese Funktionen benötigen einen installierten <a href="http://www.jabber.org/web/Clients">Jabber</a>-Client, der die <a href="http://xmpp.org/extensions/xep-0147.html">XEP-0147</a>-Spezifikation unterstützt.]]></item>
+	</category>
+</language>
